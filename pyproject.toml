@@ -1,0 +1,19 @@
+[project]
+name = "johnnyhuynh2704-github-io"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nhan Thanh Huynh",email = "johnny27@bu.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "johnnyhuynh2704"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

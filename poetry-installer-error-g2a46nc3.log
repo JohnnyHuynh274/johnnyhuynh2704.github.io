@@ -1,0 +1,33 @@
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Python path configuration:
+  PYTHONHOME = (not set)
+  PYTHONPATH = (not set)
+  program name = '/Users/johnnyhuynh/Library/Application Support/pypoetry/venv/bin/python3'
+  isolated = 1
+  environment = 0
+  user site = 0
+  import site = 1
+  sys._base_executable = '/Users/johnnyhuynh/Library/Application Support/pypoetry/venv/bin/python3'
+  sys.base_prefix = '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol'
+  sys.base_exec_prefix = '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol'
+  sys.executable = '/Users/johnnyhuynh/Library/Application Support/pypoetry/venv/bin/python3'
+  sys.prefix = '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol'
+  sys.exec_prefix = '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol'
+  sys.path = [
+    '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python38.zip',
+    '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.8',
+    '/opt/concourse/worker/volumes/live/47090e1c-dc82-4ab8-7ab0-318c9b6b0520/volume/python_1593706456233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00007ff845e15fc0 (most recent call first):
+<no Python frame>
+
+Traceback:
+
+  File "<stdin>", line 937, in main
+  File "<stdin>", line 576, in run
